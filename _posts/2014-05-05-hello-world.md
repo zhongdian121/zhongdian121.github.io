@@ -2,12 +2,14 @@
 layout: post
 keywords: blog
 description: blog
-title: "学习IOS7开发ING"
-categories: [IOS7]
+title: "奠基仪式"
+categories: [琐碎]
 tags: [Archive]
 group: archive
 icon: file-o
 ---
+
+这一句标志着我移居github社区的开始
 
 最近这段时间我开始从零<del>单排</del>学起IOS开发。学习过程中，着实感觉到苹果公司以及社区的学习资料对于初学者的友好。
 甚至于苹果公司自己提供的技术文档都散发着苹果公司自身的美学气息。这是我在学习其他编程语言或技术所没感受到的。
