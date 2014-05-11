@@ -22,13 +22,3 @@ title标签和h1标签往往是搜索引擎抓取关键词的地方。be aware!<
 css中有个特指度决定了应用css的优先级。有个ice规则可以看一下。 <br />
 盒模型以前说得很多这次就不说啦。<br />
 今天（5月11日）就到这儿吧。<br />
-
-<h2>JQuery Mobile插件</h2>
-图片滑动浏览 PhotoSwipe <br />
-图片幻灯片 Camera <br />
-滚动选择时间 Mobiscroll <br />
-搜索插件 AutoComplete <br />
-日期对话框 DateBox <br />
-简单对话框 SimpleDialog <br />
-快捷标签 ActionSheet <br />
-下拉更新 iscroll.js <br />
