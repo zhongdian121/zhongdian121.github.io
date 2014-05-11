@@ -20,9 +20,9 @@ super.loadUrl("file:///android_asset/www/index.html", 3000);   //设置了首次
 根目录下的AndroidManifest.xml则提供了一些安装时的系统级的设置，以下的xml标签就是安装程序时提到的需要用的系统功能
 
 <code>
-<uses-permission android:name="android.permission.READ_CONTACTS" />
-<uses-permission android:name="android.permission.WRITE_CONTACTS" />
-<uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" /></code>
+uses-permission android:name="android.permission.READ_CONTACTS" 
+uses-permission android:name="android.permission.WRITE_CONTACTS"
+uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" </code>
 
 <h2>JQuery Mobile一些基础</h2>
 JQM的很多概念和appFramework都差不多，不过以防后面要用到，这里还是记载一下子吧。<br />
