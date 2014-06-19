@@ -17,11 +17,11 @@ open xml sdk这个技术使得我可以简便地通过c#语言操作office文档
 其实摸索的时候有点找不到头绪。但是很快就发现诀窍了。首先我需要在word里面作好最初的排版。然后利用下载包中提供的 open xml sdk tool打开这个文档，对于每一行都reflect一个方法，这个方法即是生成这一行格式的c#代码。动态生成内容之后，再append上文档就行。主要问题是我当初没有明白new run和new paragraph的区别，paragraph两行之间总有空行，闹腾了一阵子。当然这样排版之后，还是有很多细节由我亲自调整，毕竟要表现用心嘛！
 源代码已经在我的github中给出，应该是一个叫做docxcreater的压缩包。 <br />
 
-![shishi](wyt_book.jpg)
+![shishi](image/post/wyt_book.jpg)
 <br />
 后来我收到了实体书了，这下子来补个图～怎么样，漂亮吧！ <br />
-<img src="wyt_book2.jpg" />
-<img src="wyt_book3.jpg" />
+<img src="image/post/wyt_book2.jpg" />
+<img src="image/post/wyt_book3.jpg" />
 
 <h2>那些序言里没说的软话</h2>
 为了显得正经，再加上当时成就感非常的大，所以写的心怀天下。既然这个博客没什么人看，我就把真真想要说的在这里说了吧。<del>其实最大的遗憾就是没有勇气把这个东西命名为《南与北》吧～</del><br />
