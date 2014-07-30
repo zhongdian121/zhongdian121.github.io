@@ -3,7 +3,7 @@ layout: post
 keywords: blog
 description: blog
 title: "微人大服务中心phonegap项目开发备忘"
-categories: [前端开发]
+categories: [项目实战]
 tags: [Archive]
 group: archive
 icon: file-o
