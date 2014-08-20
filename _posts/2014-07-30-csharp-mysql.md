@@ -38,11 +38,12 @@ BigSolution工程从暑假开始进行到现在，还几乎没有产生最终代
 ####基本操作
 跟以前用的sql server一样，MySqlCommand Object也是主要有三种方法：
 
-• ExecuteReader - used to query the database. Results are usually returned in a MySqlDataReader object, created by ExecuteReader. 
-• ExecuteNonQuery - used to insert and delete data. 
-• ExecuteScalar - used to return a single value. 
+• ExecuteReader - used to query the database. Results are usually returned in a MySqlDataReader object, created by ExecuteReader. <br />
+• ExecuteNonQuery - used to insert and delete data. <br />
+• ExecuteScalar - used to return a single value. <br />
 
 读取数据
+
 ```
  			string sql = "SELECT Name, HeadOfState FROM Country WHERE Continent='Oceania'";
             MySqlCommand cmd = new MySqlCommand(sql, conn);
@@ -54,7 +55,7 @@ BigSolution工程从暑假开始进行到现在，还几乎没有产生最终代
             }
             rdr.Close();
 ```
-
+<br />
 插入数据（或者创建表什么的）
 ```
  			string sql = "INSERT INTO Country (Name, HeadOfState, Continent)"
@@ -62,7 +63,7 @@ BigSolution工程从暑假开始进行到现在，还几乎没有产生最终代
             MySqlCommand cmd = new MySqlCommand(sql, conn);
             cmd.ExecuteNonQuery();
 ```
-
+<br />
 统计（没找到好名字，相当于linq里的立即执行类）
 ```
  			string sql = "SELECT COUNT(*) FROM Country";
@@ -74,7 +75,7 @@ BigSolution工程从暑假开始进行到现在，还几乎没有产生最终代
                 Console.WriteLine("Number of countries in the World database is: " + r);
             }
 ```
-
+<br />
 总而言之，基本的操作，都是靠SQL。。。。<del>一到这里我又想因为以前自己不认真学习而撞墙了。</del>
 
 ####非实时连接
@@ -120,8 +121,10 @@ http://dev.mysql.com/doc/connector-net/en/connector-net-tutorials-data-adapter.h
         }
     }
 ```
+<br />
 在调用时，需要给出Model实例、Model的成员参数名数组和SQL语句作为参数。不过应当注意，目前来说，后台程序是不会对参数名列表做检验的，而且导致的错误也比较难以理解，所以在编程时自身要注意这里不要犯错。anyway，这种封装方式确实大大提高了代码重用性。百度了一下，这个也不会导致几何级数的效率降低，基本上可以接受。
 ```
+<br />
             UserInfoModel userInfo = new UserInfoModel();
             string sql = "SELECT * FROM USERS WHERE uid=" + id.ToString();
             string[] paras = new string[] { "username", "password","email","birthday","uid","discription" };
