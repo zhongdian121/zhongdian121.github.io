@@ -2,8 +2,8 @@
 layout: post
 keywords: blog
 description: blog
-title: "iOS库：XYPieChart的基本使用"
-categories: [移动开发]
+title: "Think in concurrency"
+categories: [经验]
 tags: [Archive]
 group: archive
 icon: file-o
