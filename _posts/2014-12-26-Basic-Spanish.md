@@ -1,3 +1,14 @@
+---
+layout: post
+keywords: blog
+description: blog
+title: "炒鸡简单的西班牙语复习"
+categories: [琐碎]
+tags: [Archive]
+group: archive
+icon: file-o
+---
+
 ##基本打招呼
 + ¿Qué tal?
 + ¿Cómo estás?
@@ -115,16 +126,7 @@ __亲戚__
 |decir|讲，说|
 |dedicar|献出|
 |tener|拥有|
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
-|||
+
 
 ##动词变位
 -ar -or -ir
@@ -139,11 +141,3 @@ __亲戚__
 |ser|soy|eres|es|somos|sois|son|
 |decir|digo||||||
 |tener|tengo||||||
-||||||||
-||||||||
-||||||||
-||||||||
-||||||||
-||||||||
-||||||||
-||||||||
